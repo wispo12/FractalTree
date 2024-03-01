@@ -26,8 +26,8 @@ int endY2 = (int)(branchLength*Math.sin(angle1) + y);
 line(x,y,endX1,endY1);
 if(branchLength>smallestBranch)
 {
-drawBranches(endX1,endY1);
-drawBranches(endX2,endY2);
+drawBranches(endX1,endY1,branchLength/1.2,30);
+drawBranches(endX2,endY2,branchLength/1.2,50);
 }
 	//your code here    
 } 
